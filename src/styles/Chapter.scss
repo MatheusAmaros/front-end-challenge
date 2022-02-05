@@ -1,0 +1,43 @@
+.Chapter{
+    margin-top: 2vw;
+
+    display: flex;
+    flex-direction: row;
+    align-items: start;
+    justify-content: center;
+    
+    gap: 3vw;
+
+    a{
+        width: 3%;
+        height: 3vw;
+        img{
+            width: 100%;
+            height: 3vw;
+        }
+
+    }
+
+    .Verses{
+        background-color: rgb(255, 255, 255);
+        width:70%;
+        
+        margin-bottom: 7vw;
+        p{
+            display: flex;
+            flex-direction: row;
+            align-items: start;
+            justify-content: start;
+
+            font-weight: bold;
+            font-size: 2vw;
+
+            gap: 0.5vw;
+            aside{
+                font-size: 1.5vw;
+                font-weight: 1;
+            }
+        }
+
+    }
+}
